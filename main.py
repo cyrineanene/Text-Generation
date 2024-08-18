@@ -31,7 +31,7 @@ train(
 #Generate your text
 model_path = './pretrained/model'
 tokenizer_path = './pretrained/tokenizer'
-prompt = "Once upon a time"
+prompt = input('enter your prompt: ')
 
 generated_text = generate_text(model_path, tokenizer_path, prompt)
 
